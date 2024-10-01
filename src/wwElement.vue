@@ -2,6 +2,7 @@
 export default {
   props: {
     content: { type: Object, required: true },
+    uid: { type: String, required: true },
     wwFrontState: { type: Object, required: true },
     wwEditorState: { type: Object, required: true },
   },
@@ -9,5 +10,8 @@ export default {
 </script>
 
 <template>
-  <wwLayout path="slot" />
+  <div>
+    <wwLayout path="slot" />
+    {{ "trigger2" }}
+  </div>
 </template>
