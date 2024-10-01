@@ -1,3 +1,10 @@
+<template>
+  <div>
+    <wwLayout path="slot" />
+    {{ "trigger2" }}
+  </div>
+</template>
+
 <script>
 export default {
   props: {
@@ -8,10 +15,3 @@ export default {
   },
 };
 </script>
-
-<template>
-  <div>
-    <wwLayout path="slot" />
-    {{ "trigger2" }}
-  </div>
-</template>
