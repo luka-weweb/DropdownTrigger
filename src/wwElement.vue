@@ -1,8 +1,7 @@
 <template>
-  <div>
+  <button>
     <wwLayout path="slot" />
-    {{ "trigger2" }}
-  </div>
+  </button>
 </template>
 
 <script>
